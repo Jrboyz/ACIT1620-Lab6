@@ -1,0 +1,101 @@
+body {
+    background-color: #d6eaf8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #0c1c2e;
+}
+
+#Welcome {
+    color: white;
+}
+
+h1 {
+    color: #0c1c2e;
+}
+
+p {
+    color: #000080;
+}
+
+h2 {
+    color: #00D6D6
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-areas: "first-paragraph image"
+                         "second-paragraph image";
+}
+
+
+aside {
+    grid-area: image;
+    margin-left:35px;
+    margin-top:70px;
+}
+
+.first-paragraph {
+    grid-area: first-paragraph;
+}
+  
+.second-paragraph {
+    grid-area: second-paragraph;
+    margin-top:180px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c1c2e;
+}
+
+#School, #MainPage, #MainPage1, #MainPage2 {
+    margin-left: 30px;
+}
+
+#School1, #Courses, #Courses2 {
+    margin-right: 30px;
+}
+
+#AboutMe {
+    font-family: "Montserrat", sans-serif;
+}
+
+a:link {
+    color: #ffd500;
+}
+
+a:visited {
+    color:white;
+}
+
+ul {
+    color: #000080;
+}
+
+ul a:visited {
+    color: #0c1c2e
+}
+
+#CourseVisit:visited {
+    color:#927d15;
+}
+
+footer {
+    background-color: #0c1c2e;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#siteFooter {
+    color: white;
+}
