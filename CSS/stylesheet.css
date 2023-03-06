@@ -69,11 +69,11 @@ nav {
 }
 
 a:link {
-    color: #ffd500;
+    color: #F6BE00;
 }
 
 a:visited {
-    color:white;
+    color: pink;
 }
 
 ul {
@@ -98,4 +98,28 @@ footer {
 
 #siteFooter {
     color: white;
+}
+
+a:not(nav a):visited {
+    color:#00D6D6
+}
+
+a:not(nav a):link {
+    color:purple
+}
+
+@media screen and (min-width:600px) {
+    .courses {
+      display: grid;
+      padding: 0;
+      margin: 0;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .courseDesc1, .course1, .courseDesc2, .course2 {
+        text-align: left;
+        border-bottom: solid 3px white ;
+    }
+    
 }
